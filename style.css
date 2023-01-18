@@ -2,7 +2,9 @@
   --main-color: #010306;
   --pane-padding: 5px 42px;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   overflow-x: hidden;
   background-color: hsla(338, 0%, 88%, 0.98);
@@ -15,7 +17,10 @@ body {
     radial-gradient(at 100% 74%, hsla(276, 51%, 59%, 0.51) 0px, transparent 50%);
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+
 }
+
 .nav {
   height: 15vh;
   width: 100%;
@@ -32,6 +37,8 @@ body {
   font-family: "Noto Serif Toto", serif;
 }
 .links a {
+  scroll-behavior: smooth;
+
   transition: all 0.25s ease;
   border-left: 1px solid transparent;
   text-decoration: none;
@@ -270,7 +277,7 @@ body {
 }
 .grid--skills {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   gap: 20px;
