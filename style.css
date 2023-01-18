@@ -3,6 +3,7 @@
   --pane-padding: 5px 42px;
 }
 html {
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 body {
@@ -208,7 +209,7 @@ body {
 }
 .desc--p {
   height: 40%;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 1em;
 }
 .sobre-container {
@@ -314,6 +315,9 @@ body {
 }
 
 @media only screen and (max-width: 495px) {
+  html {
+  overflow-x: hidden;
+}
   body {
     overflow-x: hidden;
   }
@@ -324,24 +328,27 @@ body {
     font-size: 1.4em;
   }
   .links {
-    transition: all 0.35s ease-in-out;
+    overflow-x:hidden ;
+    transition: all 0.60s ease-in-out;
     padding: 0;
     margin: 0;
-    position: absolute;
     flex-direction: column;
     display: flex;
-    right: -2000px;
+    position: absolute;
     top: 120px;
     width: 100%;
+    left: -1200px;
   }
   .links a {
+ 
     color: rgb(0, 0, 0);
     text-align: end;
     margin: 0;
     background-color: rgba(255, 255, 255, 0.431);
   }
   .show {
-    right: 0;
+    overflow-x:hidden ;
+    left: 0;
   }
 }
 
