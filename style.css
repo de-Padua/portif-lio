@@ -288,8 +288,6 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .skill {
-  box-shadow: rgba(0, 0, 0, 0.009) 0px 10px 15px -3px,
-    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   padding: 5px 10px;
   transition: all 0.15s ease;
   backdrop-filter: blur(4px);
