@@ -8,18 +8,10 @@ html {
 }
 body {
   overflow-x: hidden;
-  background-color: hsla(338, 0%, 88%, 0.98);
-  background-image: radial-gradient(
-      at 0% 55%,
-      hsla(244, 51%, 59%, 0.55) 0px,
-      transparent 50%
-    ),
-    radial-gradient(at 66% 0%, rgba(179, 22, 132, 0.239) 0px, transparent 50%),
-    radial-gradient(at 100% 74%, hsla(276, 51%, 59%, 0.51) 0px, transparent 50%);
+
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-
 }
 
 .nav {
@@ -316,8 +308,8 @@ body {
 
 @media only screen and (max-width: 495px) {
   html {
-  overflow-x: hidden;
-}
+    overflow-x: hidden;
+  }
   body {
     overflow-x: hidden;
   }
@@ -328,8 +320,8 @@ body {
     font-size: 1.4em;
   }
   .links {
-    overflow-x:hidden ;
-    transition: all 0.60s ease-in-out;
+    overflow-x: hidden;
+    transition: all 0.6s ease-in-out;
     padding: 0;
     margin: 0;
     flex-direction: column;
@@ -340,14 +332,13 @@ body {
     left: -1200px;
   }
   .links a {
- 
     color: rgb(0, 0, 0);
     text-align: end;
     margin: 0;
     background-color: rgba(255, 255, 255, 0.431);
   }
   .show {
-    overflow-x:hidden ;
+    overflow-x: hidden;
     left: 0;
   }
 }
