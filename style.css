@@ -8,7 +8,10 @@ html {
 }
 body {
   overflow-x: hidden;
-
+  background-color:hsla(275,0%,98%,1);
+  background-image:
+  radial-gradient(at 33% 41%, hsla(219,95%,71%,0.26) 0px, transparent 50%),
+  radial-gradient(at 65% 66%, hsla(296,77%,68%,0.33) 0px, transparent 50%);
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
